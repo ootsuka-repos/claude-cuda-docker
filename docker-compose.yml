@@ -16,4 +16,3 @@ services:
               capabilities: [gpu]
     tty: true
     stdin_open: true
-    user: "claude"

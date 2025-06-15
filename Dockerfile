@@ -43,5 +43,10 @@ RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
 # 現在のディレクトリのすべてのファイルを作業ディレクトリにコピー
 COPY --chown=claude:claude . .
 
+# Gitのグローバル設定
+RUN git config --global --add safe.directory /app && \
+    git config --global core.filemode false && \
+    git config --global core.autocrlf input
+
 # ユーザーをclaudeに切り替え
 USER claude
