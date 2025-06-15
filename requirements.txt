@@ -10,3 +10,8 @@ huggingface_hub==0.27.1
 python-dotenv==1.0.1
 accelerate==1.2.1
 bitsandbytes==0.45.0
+pytorch-lightning
+scikit-learn
+matplotlib
+seaborn
+diffusers
