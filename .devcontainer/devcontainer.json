@@ -1,7 +1,7 @@
 {
-	"name": "PyTorch Lightning Training",
+	"name": "pytorch_traing",
 	"dockerComposeFile": "../docker-compose.yml",
-	"service": "ai-model-training",
+	"service": "pytorch_traing",
 	"workspaceFolder": "/app",
 	"customizations": {
 		"vscode": {

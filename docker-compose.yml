@@ -1,5 +1,5 @@
 services:
-  ai-model-training:
+  pytorch_traing:
     build: .
     ports:
       - "8888:8888"
